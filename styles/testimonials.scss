@@ -1,0 +1,17 @@
+.testimonials{
+  background-color: #03b6e7;
+  height: 525px;
+  .marginTm{
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 95px;
+    div:first-child{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      color: #a6ecff;
+    }
+  }
+  h2{
+    color: white;
+  }
+}

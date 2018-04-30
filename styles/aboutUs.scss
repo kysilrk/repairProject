@@ -1,0 +1,43 @@
+.aboutUs{
+  width: 1170px;
+  margin: 95px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  //justify-content: ;
+  .leftSideAboutUs{
+    text-align: right;
+    width: 55%;
+    padding-right: 15px;
+      div:first-child{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: #838b8c;
+      }
+      a{
+        text-decoration: none;
+        div:last-child{
+        color: #ffffff;
+        background-color: #16d428;
+        margin-top: 13px;
+        padding: 14px;
+        margin-left: 508px;
+        border-radius: 30px;
+          &:hover{
+            background-color: #0032a2;
+          }
+      }
+      }
+    .text{
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      color: #838b8c;
+      margin-top: 10px;
+    }
+  }
+  .rightSideAboutUs{
+    position: relative;
+    width: 45%;
+    padding-left: 15px;
+  }
+}

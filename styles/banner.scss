@@ -1,0 +1,79 @@
+.banner {
+  margin: 0;
+  //background: url("../img/shtrih.png");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/shtrih.png");
+  display: flex;
+  flex-direction: column-reverse;
+}
+.marginBB {
+  width: 1170px;
+  margin: 0 auto;
+}
+.blueBox {
+  height: 525px;
+  width: 460px;
+  background-color: #03b6e7;
+  .blueBoxYellow {
+    height: 115px;
+    background-color: #ffac55;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+  }
+  .blueBoxCenter {
+    height: 260px;
+    width: 460px;
+    background-color: coral;
+    div {
+      height: 50%;
+      width: 50%;
+      float: left;
+      background-color: #03b6e7;
+      &:hover {
+        background-color: #00a6d3;
+      }
+      border: solid 1px #00a6d3;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      padding-left: 40px;
+      padding-top: 20px;
+      img:last-child {
+        margin-left: 45px;
+      }
+    }
+  }
+  .blueBoxBottom {
+    div:first-child img {
+      margin: 7px 0 0 13px;
+      float: left;
+    }
+    div span {
+      color: #ffffff;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      margin-left: 50px;
+    }
+    .greenPhone {
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      color: #ffffff;
+      margin-left: 138px;
+      margin-top: 17px;
+      padding: 3px 10px 3px 18px;
+      background-color: #16d428;
+      border-radius: 30px;
+      margin-right: 16px;
+      img {
+        vertical-align: -10px;
+        margin-right: 20px;
+      }
+    }
+  }
+}

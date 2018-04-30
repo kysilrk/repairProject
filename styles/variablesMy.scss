@@ -1,0 +1,22 @@
+*{
+
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  @media (max-width: 1025px) {
+    width: 1200px;
+  }
+}
+
+h2{
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color:#343a3b;
+  text-transform: uppercase;
+}
+//body {
+//  width: 1170px;
+//  margin: 0 auto;
+//}

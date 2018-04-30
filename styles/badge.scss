@@ -1,0 +1,35 @@
+.badgeSection{
+  height: 280px;
+  width: 240px;
+  background-color: white;
+  position: absolute;
+  right: 160px;
+  bottom: -177px;
+  box-shadow: 0 0 2px #bbc4c7;
+  div:first-child{
+    background-color: #03b6e7;
+    height: 234px;
+    width: 192px;
+    margin: 23px auto;
+    text-align: center;
+    border: solid 1px #35c5ec;
+    outline: solid 17px #03b6e7;
+  }
+}
+.textLavr{
+  position: absolute;
+  bottom: 50px;
+  left: 67px;
+  h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 75px;
+    margin-bottom: -10px;
+  }
+  span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: white;
+  }
+}

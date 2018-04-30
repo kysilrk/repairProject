@@ -1,0 +1,42 @@
+.contactUs{
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 95px;
+  .headContUs{
+    margin-bottom: 30px;
+    div span{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      color: #838b8c;
+
+    }
+  }
+  .optionsContUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    div{
+      width: 360px;
+      height: 130px;
+      border:solid #e1eaec 1px;
+      img{
+        margin: 27px 19px 0 35px;
+        float: left;
+      }
+      span{
+        font-family:'Roboto', sans-serif;
+        font-size: 18px;
+        color: #343a3b;
+      }
+    }
+    h6{
+      font-family:"Montserrat", sans-serif;
+      font-weight:bold;
+      font-size: 18px;
+      margin-top: 40px;
+
+    }
+  }
+}

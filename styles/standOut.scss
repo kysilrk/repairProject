@@ -1,0 +1,46 @@
+.standOut{
+  margin-top: 55px;
+  background-color: #e7eff1;
+  height: 506px;
+  .marginSo{
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 90px;
+    div:first-child{
+      color:#898e8f;
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
+  .sectionsStandOut{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 33px;
+    h5{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      color: #16d428;
+      margin : 15px 0;
+    }
+    h4{
+      font-family: 'Montserrat', sans-serif;
+      font-weight:bold;
+      font-size: 18px;
+      color: black;
+      margin-bottom: 30px;
+    }
+    span{
+      margin-top: 30px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      color: #838b8c;
+    }
+    div{
+      padding-right: 20px;
+      width: 330px;
+      height: 260px;
+      margin: 0 auto;
+    }
+  }
+
+}

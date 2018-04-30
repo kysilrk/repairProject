@@ -1,0 +1,109 @@
+.blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .blogImg {
+    width: 50%;
+    background: url("../img/blog.png");
+    height: 745px;
+    @media (max-width: 1080px) {
+      display: none;
+    }
+
+  }
+  .leftSideBlog {
+    width: 50%;
+    .mrgn {
+      width: 550px;
+      margin: 0 5% 0 auto;
+      padding-top: 95px;
+      //display: flex;
+      //flex-direction: row;
+      @media (max-width: 1080px) {
+        display: inline;
+      }
+    }
+    @media (max-width: 1080px) {
+      width: 100%;
+    }
+    background-color: #e7eff1;
+    //text-transform: uppercase;
+    .leftSideBlogHead {
+      display: flex;
+      flex-direction: row;
+      div a {
+        text-decoration: none;
+        color: #606668;
+      }
+
+      div a div h2 {
+        font-size: 32px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: #343a3b;
+        text-transform: uppercase;
+      }
+      div span {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: #838b8c;
+      }
+      .leftSideButtons {
+        a:last-child {
+          margin-left: 10px;
+        }
+        text-transform: uppercase;
+        margin-left: 65px;
+        display: flex;
+        flex-direction: row;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        color: #606668;
+        div {
+          border: 2px solid #989fa0;
+          border-radius: 15px;
+          height: 35px;
+          padding: 8px 10px 0 10px;
+          margin-top: 20px;
+          &:hover {
+            border: 3px solid #ffac56;
+          }
+        }
+      }
+    }
+    .blogText {
+      margin-top: 50px;
+
+      div h6 {
+        font-family: 'PT Sans', sans-serif;
+        color: #343a3b;
+        font-size: 15px;
+        margin-bottom: 10px;
+      }
+      div h5 {
+        margin-bottom: 20px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      div span {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-style: italic;
+        color: #838b8c;
+      }
+      .fText {
+        margin-bottom: 65px;
+
+      }
+      .sText {
+        margin-bottom: 65px;
+
+      }
+      .lText{
+
+      }
+
+    }
+  }
+}
